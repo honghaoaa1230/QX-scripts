@@ -8,7 +8,7 @@ if (url.indexOf("followsuper") != -1){
     console.log('followsuper detected!');
     $notify("followsuper!");
 }
-
+console.log('followsuper detected outside!');
 $notify("followsuperout!");
 
 $done({ body });
