@@ -6,6 +6,9 @@ if (url.indexOf("followsuper") != -1){
     obj[cards][0][card_group][1].title_sub = '金多娟';
     body = JSON.stringify(obj);
     console.log('followsuper detected!');
+    $notify("followsuper!");
 }
+
+$notify("followsuperout!");
 
 $done({ body });
